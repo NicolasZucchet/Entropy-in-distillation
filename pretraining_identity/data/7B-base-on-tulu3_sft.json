@@ -1,0 +1,124 @@
+{
+  "entropy": 0.861191855776564,
+  "cross_entropy": 0.8477930169134951,
+  "g": -0.013398626338918853,
+  "identity_gap": 0.013398838863068918,
+  "self_perplexity": 2.365978956222534,
+  "perplexity": 2.334489107131958,
+  "tokens": 2000974,
+  "sequences": 4247,
+  "stage": "base",
+  "mix": "tulu3_sft",
+  "model": "allenai/OLMo-2-1124-7B",
+  "revision": "main",
+  "per_source": {
+    "ai2-adapt-dev/tulu_v3.9_aya_100k": {
+      "entropy": 1.6912044409070743,
+      "cross_entropy": 1.7305319316737084,
+      "identity_gap": -0.03932749076663413,
+      "tokens": 126797
+    },
+    "ai2-adapt-dev/numinamath_tir_math_decontaminated": {
+      "entropy": 0.5757377242453113,
+      "cross_entropy": 0.6439563425686967,
+      "identity_gap": -0.06821861832338537,
+      "tokens": 203406
+    },
+    "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": {
+      "entropy": 0.4249465870945111,
+      "cross_entropy": 0.5872753202968627,
+      "identity_gap": -0.16232873320235164,
+      "tokens": 30117
+    },
+    "ai2-adapt-dev/personahub_math_v5_regen_149960": {
+      "entropy": 0.2836089053951219,
+      "cross_entropy": 0.2796875229967297,
+      "identity_gap": 0.003921382398392186,
+      "tokens": 701606
+    },
+    "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": {
+      "entropy": 1.5259459064616099,
+      "cross_entropy": 1.4301451745733722,
+      "identity_gap": 0.09580073188823755,
+      "tokens": 51206
+    },
+    "ai2-adapt-dev/flan_v2_converted": {
+      "entropy": 1.009757527135171,
+      "cross_entropy": 1.1156824792870663,
+      "identity_gap": -0.10592495215189511,
+      "tokens": 14116
+    },
+    "ai2-adapt-dev/tulu_v3.9_wildchat_100k": {
+      "entropy": 1.5875515411213617,
+      "cross_entropy": 1.5012283226244705,
+      "identity_gap": 0.08632321849689117,
+      "tokens": 444210
+    },
+    "ai2-adapt-dev/coconot_converted": {
+      "entropy": 1.9298656266528738,
+      "cross_entropy": 1.8053038566280606,
+      "identity_gap": 0.12456177002481299,
+      "tokens": 3929
+    },
+    "ai2-adapt-dev/personahub_code_v2_34999": {
+      "entropy": 0.4919997770542281,
+      "cross_entropy": 0.45745047116544185,
+      "identity_gap": 0.03454930588878627,
+      "tokens": 20275
+    },
+    "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": {
+      "entropy": 0.2471734722423323,
+      "cross_entropy": 0.24590239941294265,
+      "identity_gap": 0.0012710728293896343,
+      "tokens": 64532
+    },
+    "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": {
+      "entropy": 1.3628574859307279,
+      "cross_entropy": 1.2821681915784378,
+      "identity_gap": 0.08068929435229016,
+      "tokens": 36109
+    },
+    "ai2-adapt-dev/oasst1_converted": {
+      "entropy": 1.6115508913761243,
+      "cross_entropy": 1.3780822652894569,
+      "identity_gap": 0.23346862608666735,
+      "tokens": 10763
+    },
+    "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": {
+      "entropy": 1.7722437773633055,
+      "cross_entropy": 1.6219763124506863,
+      "identity_gap": 0.15026746491261905,
+      "tokens": 17199
+    },
+    "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": {
+      "entropy": 1.1711631783028646,
+      "cross_entropy": 1.1900628566201803,
+      "identity_gap": -0.018899678317315555,
+      "tokens": 177443
+    },
+    "ai2-adapt-dev/tulu_v3.9_sciriff_10k": {
+      "entropy": 1.4475493878584642,
+      "cross_entropy": 1.4371485234937098,
+      "identity_gap": 0.010400864364754441,
+      "tokens": 5850
+    },
+    "allenai/tulu-3-sft-personas-math-grade": {
+      "entropy": 0.2538525871018132,
+      "cross_entropy": 0.24842355006775294,
+      "identity_gap": 0.005429037034060268,
+      "tokens": 84131
+    },
+    "ai2-adapt-dev/tulu_v3.9_table_gpt_5k": {
+      "entropy": 0.3781421836293962,
+      "cross_entropy": 0.36785180090602526,
+      "identity_gap": 0.010290382723370996,
+      "tokens": 2279
+    },
+    "ai2-adapt-dev/no_robots_converted": {
+      "entropy": 1.8911948480369225,
+      "cross_entropy": 1.950457154224166,
+      "identity_gap": -0.05926230618724338,
+      "tokens": 7006
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entropy": 1.4281002720083342,
+  "cross_entropy": 1.4334115444838371,
+  "g": 0.005313381811638871,
+  "identity_gap": -0.005311272475502893,
+  "self_perplexity": 4.170768335719545,
+  "perplexity": 4.1929793549566465,
+  "tokens": 2006060,
+  "sequences": 980,
+  "stage": "stage1",
+  "mix": "olmo_mix",
+  "model": "allenai/OLMo-2-0325-32B",
+  "revision": "stage1-step721901-tokens6056B",
+  "commit": "cd8442669fb9ece49be20a6190b1499fe86dc332",
+  "per_source": {
+    "dclm": {
+      "entropy": 1.7190382442651404,
+      "cross_entropy": 1.7230404082508661,
+      "identity_gap": -0.00400216398572579,
+      "tokens": 286580
+    },
+    "wiki": {
+      "entropy": 1.4308877520987506,
+      "cross_entropy": 1.4368754751958985,
+      "identity_gap": -0.005987723097147966,
+      "tokens": 286580
+    },
+    "pes2o": {
+      "entropy": 2.053656325751917,
+      "cross_entropy": 2.05231769345329,
+      "identity_gap": 0.0013386322986273466,
+      "tokens": 286580
+    },
+    "arxiv": {
+      "entropy": 1.2126022395306284,
+      "cross_entropy": 1.202732161309533,
+      "identity_gap": 0.009870078221095549,
+      "tokens": 286580
+    },
+    "starcoder": {
+      "entropy": 0.7297548728408829,
+      "cross_entropy": 0.749864477801451,
+      "identity_gap": -0.02010960496056811,
+      "tokens": 286580
+    },
+    "algebraic-stack": {
+      "entropy": 1.37930008798195,
+      "cross_entropy": 1.3884519635728352,
+      "identity_gap": -0.009151875590885398,
+      "tokens": 286580
+    },
+    "open-web-math": {
+      "entropy": 1.4714624093826638,
+      "cross_entropy": 1.4805986549110688,
+      "identity_gap": -0.00913624552840489,
+      "tokens": 286580
+    }
+  }
+}

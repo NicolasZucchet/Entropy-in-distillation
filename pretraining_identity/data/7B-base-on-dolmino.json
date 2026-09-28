@@ -1,0 +1,89 @@
+{
+  "entropy": 1.0430002803461862,
+  "cross_entropy": 1.0730189833102448,
+  "g": 0.030018899018311472,
+  "identity_gap": -0.03001870296405862,
+  "self_perplexity": 2.8377182051555745,
+  "perplexity": 2.9241942811740995,
+  "tokens": 2032671,
+  "sequences": 993,
+  "stage": "base",
+  "mix": "dolmino",
+  "model": "allenai/OLMo-2-1124-7B",
+  "revision": "main",
+  "commit": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+  "per_source": {
+    "dclm": {
+      "entropy": 2.053112190522297,
+      "cross_entropy": 2.059453359055247,
+      "identity_gap": -0.006341168532949393,
+      "tokens": 167854
+    },
+    "wiki": {
+      "entropy": 1.771032910689754,
+      "cross_entropy": 1.748047650329822,
+      "identity_gap": 0.02298526035993217,
+      "tokens": 167854
+    },
+    "pes2o": {
+      "entropy": 2.137944452179703,
+      "cross_entropy": 2.1583411611616343,
+      "identity_gap": -0.02039670898193147,
+      "tokens": 167854
+    },
+    "stackexchange": {
+      "entropy": 1.660524266676928,
+      "cross_entropy": 1.6387146985868766,
+      "identity_gap": 0.021809568090051475,
+      "tokens": 167854
+    },
+    "flan": {
+      "entropy": 0.9640106248806161,
+      "cross_entropy": 1.236426666156861,
+      "identity_gap": -0.2724160412762449,
+      "tokens": 167854
+    },
+    "math/tinyGSM-MIND": {
+      "entropy": 0.3268255921257392,
+      "cross_entropy": 0.4099726660066654,
+      "identity_gap": -0.0831470738809262,
+      "tokens": 167854
+    },
+    "math/mathcoder2-synthmath": {
+      "entropy": 0.9325984014102285,
+      "cross_entropy": 0.9210768609911273,
+      "identity_gap": 0.011521540419101198,
+      "tokens": 167854
+    },
+    "math/tulu_math": {
+      "entropy": 0.4481980419904919,
+      "cross_entropy": 0.43299381710249646,
+      "identity_gap": 0.015204224887995436,
+      "tokens": 169901
+    },
+    "math/metamath-owmfilter": {
+      "entropy": 0.2851174104211868,
+      "cross_entropy": 0.26312393598822303,
+      "identity_gap": 0.021993474432963785,
+      "tokens": 167854
+    },
+    "math/dolmino_math_synth": {
+      "entropy": 0.4416398244818514,
+      "cross_entropy": 0.512224145968569,
+      "identity_gap": -0.07058432148671757,
+      "tokens": 178089
+    },
+    "math/gsm8k": {
+      "entropy": 0.43916923128728735,
+      "cross_entropy": 0.45625268632139543,
+      "identity_gap": -0.0170834550341081,
+      "tokens": 169901
+    },
+    "math/codesearchnet-owmfilter": {
+      "entropy": 1.10558967413738,
+      "cross_entropy": 1.0887383121055028,
+      "identity_gap": 0.016851362031877235,
+      "tokens": 171948
+    }
+  }
+}

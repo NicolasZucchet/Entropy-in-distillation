@@ -1,0 +1,22 @@
+[project]
+name = "toy-model"
+version = "1.0.0"
+description = "Toy model of distillation: a linear-softmax student distilled from synthetic teachers."
+requires-python = "==3.12.*"
+# Enough to redraw the figures from data/.
+dependencies = ["numpy==2.5.3", "matplotlib==3.10.9"]
+
+[dependency-groups]
+# Rerunning the sweeps (CPU; add --group cuda on an NVIDIA GPU).
+experiments = [
+    "jax==0.8.1",
+    "jaxlib==0.8.1",
+    "flax==0.12.1",
+    "optax==0.2.6",
+]
+cuda = [
+    "jax[cuda12]==0.8.1; sys_platform == 'linux' and platform_machine == 'x86_64'",
+]
+
+[tool.uv]
+package = false

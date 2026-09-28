@@ -1,0 +1,32 @@
+{
+  "entropy": 1.7536556499344962,
+  "cross_entropy": 1.7304612668193116,
+  "g": -0.02319219932910435,
+  "identity_gap": 0.023194383115184625,
+  "self_perplexity": 5.7756781578063965,
+  "perplexity": 5.643256187438965,
+  "stage": "final",
+  "mix": "pile",
+  "model": "EleutherAI/pythia-12b",
+  "revision": "step143000",
+  "per_source": {
+    "pile_early": {
+      "entropy": 1.7348945584239028,
+      "cross_entropy": 1.722150452253295,
+      "identity_gap": 0.012744106170607776,
+      "tokens": 671744
+    },
+    "pile_mid": {
+      "entropy": 1.803417551808241,
+      "cross_entropy": 1.777968275837782,
+      "identity_gap": 0.025449275970458984,
+      "tokens": 671744
+    },
+    "pile_late": {
+      "entropy": 1.7181369761016472,
+      "cross_entropy": 1.6870068582289057,
+      "identity_gap": 0.031130117872741326,
+      "tokens": 667648
+    }
+  }
+}
